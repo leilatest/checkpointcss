@@ -1,59 +1,98 @@
 .part1 {
-  margin: 10px;
+  
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+letter-spacing: 2px;
+
+
 }
 .part1 h1 {
+  
   text-decoration: none;
-  color: #000;
-  font-size: x-large;
-  font-family: Arial, Helvetica, sans-serif;
-  position: relative;
-  position: sticky;
-  padding: 10px;
-}
+  color: rgb(61, 58, 58); 
+ font-family: 'Righteous', cursive;
+ font-size: xx-large;
+ font-weight: bolder;
+ position: sticky;
 
+}
+.part1 ul {
+ font-family: 'Righteous', cursive;
+  padding:5px ;
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+}
+.part1 a{
+  all: unset ;
+
+}
 /*partie2*/
 .part2 {
+ 
+  margin: 20px;
   display: flex;
   flex-direction: row;
   align-content: center;
   justify-content: space-between;
   gap: 5px;
+  align-items: center;
 }
 .part21 {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-content: center;
   justify-content: center;
-  padding: 20px;
+  padding: 30px;
 }
 .part2 h1 {
-  color: rgb(29, 28, 28);
-  font-size: xx-large;
-  font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(49, 46, 46);
+font-family: 'Anton', sans-serif;
+letter-spacing: 2px;
 }
+
 .part2 p {
   color: rgb(97, 93, 93);
   font-size: medium;
   font-weight: initial;
-  font-style: italic;
+  font-family: 'Abril Fatface', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Happy Monkey', cursive;
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Red Hat Mono', monospace;
+font-family: 'Share Tech Mono', monospace;
+font-family: 'Simonetta', cursive;
 }
 a {
   color: rgb(12, 179, 179);
   text-decoration: none;
-  font-weight: bolder;
-  border: #000 1px solid;
+ font-family: 'Passion One', cursive;
+font-family: 'Rubik Mono One', sans-serif;
+font-weight: bold;
+    
+
 }
 a:hover {
   color: rgb(121, 200, 224);
 }
 .btn1 {
   background-color: black;
+   border-radius: 30px;
+
   color: white;
-  padding: 10px;
-  border-radius: 30px;
+  padding: 20px;
+ 
   width: 200px;
   height: 60px;
+   font-family: 'Passion One', cursive;
+font-family: 'Rubik Mono One', sans-serif;
+font-weight: bold;
+letter-spacing:3px ;
 }
 .a:hover {
   color: blue;
@@ -66,28 +105,34 @@ a:hover {
 }
 
 /* 3éme partie */
-.part3 {
-  width: 100%;
+.part3 { 
+  
+  margin: 0px 20px 20px 20px;
   height: 400px;
   display: flex;
   flex-direction: row;
+
 }
 .part3 div {
-  padding: 15px;
+ 
+  padding: 30px;
   color: white;
   font-size: small;
   text-align: end;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  align-content: center;
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Happy Monkey', cursive;
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Red Hat Mono', monospace;
+font-family: 'Share Tech Mono', monospace;
+font-family: 'Simonetta', cursive;
 }
-.part3 p {
-  color: rgb(255, 255, 255);
-  font-size: medium;
-  font-weight: initial;
-  font-style: italic;
-}
+
 .part31 {
   background-color: #000;
 }
@@ -100,6 +145,8 @@ a:hover {
 
 /*4 éme parti*/
 .part4 {
+ 
+  margin: 20px;
   height: 500px;
   color: rgb(53, 53, 53);
   padding: 40px;
@@ -108,14 +155,32 @@ a:hover {
   align-content: center;
   justify-content: center;
   align-items: center;
+  gap: 100px;
+
+}
+.part4 div{
+font-family: 'Russo One', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+.part4 p{
+  font-family: 'IBM Plex Serif', serif;
 }
 .btn2 {
   color: #000;
   font-weight: lighter;
   background-color: white;
   border: rgb(124, 123, 123) 2px solid;
-  width: 150px;
-  padding: 10px;
+  width: 200px;
+  padding: 20px;
+      font-family: 'Passion One', cursive;
+font-family: 'Rubik Mono One', sans-serif;
+font-weight: bold;
+letter-spacing:3px ;
 }
 i {
   color: rgb(53, 53, 53);
@@ -125,9 +190,13 @@ i {
 /*5éme partie*/
 
 .part5 {
+  
+  margin: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-content: center;
+  align-items: center;
 }
 .part51 {
   width: 60%;
@@ -135,16 +204,21 @@ i {
   background-image: url(./image/img1.jpg);
   background-size: auto;
   background-repeat: no-repeat;
+ 
 }
 
 .part52 {
   width: 40%;
   background-color: rgb(98, 225, 230);
   color: white;
-  padding: 60px;
+  padding: 55px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-content: center;
+  
+font-family: 'Martian Mono', monospace;
+  
 }
 
 .btn3 {
@@ -155,10 +229,16 @@ i {
   font-weight: initial;
   color: rgb(98, 225, 230);
   padding: 10px;
+     font-family: 'Passion One', cursive;
+font-family: 'Rubik Mono One', sans-serif;
+font-weight: bold;
+letter-spacing:3px ;
 }
 /*6éme partie*/
 .part6 {
-  margin: 30px 0px;
+    
+
+  margin: 20px;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -169,13 +249,22 @@ i {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+  margin: 20px;
 
+}
+.ourservices{
+font-family: 'Nunito', sans-serif;
+
+}
+.ourservices p {
+  font-family: 'Nunito', sans-serif;
+  color: rgb(131, 113, 113);
+}
 .services {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-
+align-content: center;
   align-items: center;
 
   flex-wrap: wrap;
@@ -186,26 +275,48 @@ i {
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-content: center;
 }
 .services p {
   color: rgb(97, 93, 93);
-  font-size: medium;
-  font-weight: initial;
-  font-style: italic;
-}
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Nunito', sans-serif;
+position: center;}
+
+
+
+
 .services h3 {
   font-weight: initial;
+  font-family: 'Hanken Grotesk', sans-serif;
 }
 
 .btn4 {
   color: rgb(0, 0, 0);
   background-color: rgb(255, 255, 255);
-  width: 150px;
-  padding: 10px;
+  width: 200px;
+  padding: 20px;
   border: 1.5px solid rgb(13, 218, 233);
+     font-family: 'Passion One', cursive;
+font-family: 'Rubik Mono One', sans-serif;
+letter-spacing:3px ;
+margin: 50px;
 }
+.services img{
+  background-color: rgb(153, 252, 255);
+  border-radius: 50px;
+  padding: 20px;
+  width: 70px;
+  height: 70px;
+ 
+}
+
+
+
 /*7éme partie*/
 .part7 {
+   
+margin: 20px;
   height: 600px;
   display: flex;
   flex-direction: row;
@@ -215,12 +326,16 @@ i {
   width: 40%;
   padding: 40px;
   background-color: rgb(241, 245, 245);
-  color: rgb(5, 5, 5);
+  color: rgb(65, 63, 63);
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: center;
   flex-wrap: wrap;
+  font-family: 'Quicksand', sans-serif;
+}
+.part71 p { 
+  color: rgb(61, 57, 57);
 }
 .part72 {
   width: 60%;
@@ -235,71 +350,111 @@ i {
   background-color: rgb(13, 218, 233);
   color: white;
   font-weight: initial;
-  padding: 10px;
-  width: 180px;
+  padding: 15px;
+  width: 200px;
+  margin: 20px;
+     font-family: 'Passion One', cursive;
+font-family: 'Rubik Mono One', sans-serif;
+font-weight: bold;
+letter-spacing:3px ;
 }
 
 /*8éme partie*/
 .part8 {
+    
+margin: 20px;
   color: white;
   background-color: rgb(13, 218, 233);
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 50px;
   height: 200px;
-  padding: 20px;
+  padding: 30px;
+  font-family: 'Quicksand', sans-serif;
 }
 .btn6 {
   background-color: white;
   color: rgb(13, 218, 233);
   border: white solid 1px;
-  font-weight: initial;
-  padding: 10px;
+    font-weight: initial;
+  padding: 15px;
   border-radius: 30px;
-  width: 180px;
+  width: 200px;
+  font-family: 'Passion One', cursive;
+font-family: 'Rubik Mono One', sans-serif;
+font-weight: bold;
+letter-spacing:3px ;
+ 
 }
 
 /*9éme partie*/
 
 .part9 {
+  
+  margin:20px;
   color: rgb(44, 43, 43);
-  padding: 30px;
-  border: #000 solid 1px;
+  padding: 50px;
   display: flex;
   flex-direction: column;
+
+ align-items:center;
+ align-content: space-between;
+ gap: 500px;
+
+ font-family: 'Quicksand', sans-serif;
+ 
+}
+.part91 {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
 .btn7 {
   color: rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
-  width: 150px;
-  padding: 10px;
+  width: 200px;
+  padding: 20px;
   border: 1px solid rgb(0, 0, 0);
+  font-family: 'Passion One', cursive;
+font-family: 'Rubik Mono One', sans-serif;
+font-weight: bold;
+letter-spacing:3px ;
 }
 
 /*10partie*/
 .part10 {
+   
+  margin:0px 20px;
   background-color: #000;
   color: white;
   padding: 50px;
   text-align: center;
   font-size: small;
+  font-family: 'Quicksand', sans-serif;
 }
 .part11 {
+    border: rgb(243, 242, 242) solid 1px;
+  margin: 0px 20px;
   height: 1px;
   background-color: rgb(48, 47, 47);
+
   padding: 50px;
   color: white;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: small;
+  gap: 5px;
+font-family: 'Quicksand', sans-serif;  
 }
 .part11 a {
   color: rgb(13, 218, 233);
-  font-size: x-small;
-  font-weight: lighter;
+  font-family: 'Quicksand', sans-serif;
+
+  
 }
